@@ -4,6 +4,8 @@ export default defineConfig({
   // Whether to use css reset
   preflight: true,
 
+  strictTokens: true,
+
   // Where to look for your css declarations
   include: ["./app/**/*.{js,jsx,ts,tsx}"],
 
